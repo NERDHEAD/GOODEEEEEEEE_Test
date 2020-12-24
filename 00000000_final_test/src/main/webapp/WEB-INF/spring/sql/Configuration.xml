@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<typeAliases>
+		<typeAlias type="com.nerdhead.edu.dto.AnswerBoardDto" alias="ADto"/>
+		<typeAlias type="com.nerdhead.edu.dto.MemberDto" alias="MemberDto"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="/sqls/answerboard.xml"/>
+		<mapper resource="/sqls/member.xml"/>
+	</mappers>
+
+</configuration>
